@@ -1,0 +1,84 @@
+c:\Users\uncle\Music\CURSO C#\bin\Debug\net10.0\CURSO C#.exe
+C:\Users\uncle\Music\CURSO C#\bin\Debug\net10.0\CURSO C#.deps.json
+C:\Users\uncle\Music\CURSO C#\bin\Debug\net10.0\CURSO C#.runtimeconfig.json
+c:\Users\uncle\Music\CURSO C#\bin\Debug\net10.0\CURSO C#.dll
+c:\Users\uncle\Music\CURSO C#\bin\Debug\net10.0\CURSO C#.pdb
+c:\Users\uncle\Music\CURSO C#\obj\Debug\net10.0\CURSO C#.GeneratedMSBuildEditorConfig.editorconfig
+c:\Users\uncle\Music\CURSO C#\obj\Debug\net10.0\CURSO C#.AssemblyInfoInputs.cache
+c:\Users\uncle\Music\CURSO C#\obj\Debug\net10.0\CURSO C#.AssemblyInfo.cs
+c:\Users\uncle\Music\CURSO C#\obj\Debug\net10.0\CURSO C#.csproj.CoreCompileInputs.cache
+c:\Users\uncle\Music\CURSO C#\obj\Debug\net10.0\CURSO C#.dll
+c:\Users\uncle\Music\CURSO C#\obj\Debug\net10.0\refint\CURSO C#.dll
+c:\Users\uncle\Music\CURSO C#\obj\Debug\net10.0\CURSO C#.pdb
+C:\Users\uncle\Music\CURSO C#\obj\Debug\net10.0\CURSO C#.genruntimeconfig.cache
+C:\Users\uncle\Music\CURSO C#\obj\Debug\net10.0\ref\CURSO C#.dll
+c:\Users\uncle\Music\Proyecto c#\bin\Debug\net10.0\CURSO C#.exe
+C:\Users\uncle\Music\Proyecto c#\bin\Debug\net10.0\CURSO C#.deps.json
+C:\Users\uncle\Music\Proyecto c#\bin\Debug\net10.0\CURSO C#.runtimeconfig.json
+c:\Users\uncle\Music\Proyecto c#\bin\Debug\net10.0\CURSO C#.dll
+c:\Users\uncle\Music\Proyecto c#\bin\Debug\net10.0\CURSO C#.pdb
+c:\Users\uncle\Music\Proyecto c#\obj\Debug\net10.0\CURSO C#.GeneratedMSBuildEditorConfig.editorconfig
+c:\Users\uncle\Music\Proyecto c#\obj\Debug\net10.0\CURSO C#.AssemblyInfoInputs.cache
+c:\Users\uncle\Music\Proyecto c#\obj\Debug\net10.0\CURSO C#.AssemblyInfo.cs
+c:\Users\uncle\Music\Proyecto c#\obj\Debug\net10.0\CURSO C#.csproj.CoreCompileInputs.cache
+c:\Users\uncle\Music\Proyecto c#\obj\Debug\net10.0\CURSO C#.dll
+c:\Users\uncle\Music\Proyecto c#\obj\Debug\net10.0\refint\CURSO C#.dll
+c:\Users\uncle\Music\Proyecto c#\obj\Debug\net10.0\CURSO C#.pdb
+C:\Users\uncle\Music\Proyecto c#\obj\Debug\net10.0\CURSO C#.genruntimeconfig.cache
+C:\Users\uncle\Music\Proyecto c#\obj\Debug\net10.0\ref\CURSO C#.dll
+c:\Users\uncle\Music\Proyecto borrador c#\bin\Debug\net10.0\CURSO C#.exe
+C:\Users\uncle\Music\Proyecto borrador c#\bin\Debug\net10.0\CURSO C#.deps.json
+C:\Users\uncle\Music\Proyecto borrador c#\bin\Debug\net10.0\CURSO C#.runtimeconfig.json
+c:\Users\uncle\Music\Proyecto borrador c#\bin\Debug\net10.0\CURSO C#.dll
+c:\Users\uncle\Music\Proyecto borrador c#\bin\Debug\net10.0\CURSO C#.pdb
+c:\Users\uncle\Music\Proyecto borrador c#\obj\Debug\net10.0\CURSO C#.GeneratedMSBuildEditorConfig.editorconfig
+c:\Users\uncle\Music\Proyecto borrador c#\obj\Debug\net10.0\CURSO C#.AssemblyInfoInputs.cache
+c:\Users\uncle\Music\Proyecto borrador c#\obj\Debug\net10.0\CURSO C#.AssemblyInfo.cs
+c:\Users\uncle\Music\Proyecto borrador c#\obj\Debug\net10.0\CURSO C#.csproj.CoreCompileInputs.cache
+c:\Users\uncle\Music\Proyecto borrador c#\obj\Debug\net10.0\CURSO C#.dll
+c:\Users\uncle\Music\Proyecto borrador c#\obj\Debug\net10.0\refint\CURSO C#.dll
+c:\Users\uncle\Music\Proyecto borrador c#\obj\Debug\net10.0\CURSO C#.pdb
+C:\Users\uncle\Music\Proyecto borrador c#\obj\Debug\net10.0\CURSO C#.genruntimeconfig.cache
+C:\Users\uncle\Music\Proyecto borrador c#\obj\Debug\net10.0\ref\CURSO C#.dll
+c:\Users\uncle\Music\Proyecto borrador V2 c#\bin\Debug\net10.0\CURSO C#.exe
+C:\Users\uncle\Music\Proyecto borrador V2 c#\bin\Debug\net10.0\CURSO C#.deps.json
+C:\Users\uncle\Music\Proyecto borrador V2 c#\bin\Debug\net10.0\CURSO C#.runtimeconfig.json
+c:\Users\uncle\Music\Proyecto borrador V2 c#\bin\Debug\net10.0\CURSO C#.dll
+c:\Users\uncle\Music\Proyecto borrador V2 c#\bin\Debug\net10.0\CURSO C#.pdb
+c:\Users\uncle\Music\Proyecto borrador V2 c#\obj\Debug\net10.0\CURSO C#.GeneratedMSBuildEditorConfig.editorconfig
+c:\Users\uncle\Music\Proyecto borrador V2 c#\obj\Debug\net10.0\CURSO C#.AssemblyInfoInputs.cache
+c:\Users\uncle\Music\Proyecto borrador V2 c#\obj\Debug\net10.0\CURSO C#.AssemblyInfo.cs
+c:\Users\uncle\Music\Proyecto borrador V2 c#\obj\Debug\net10.0\CURSO C#.csproj.CoreCompileInputs.cache
+c:\Users\uncle\Music\Proyecto borrador V2 c#\obj\Debug\net10.0\CURSO C#.dll
+c:\Users\uncle\Music\Proyecto borrador V2 c#\obj\Debug\net10.0\refint\CURSO C#.dll
+c:\Users\uncle\Music\Proyecto borrador V2 c#\obj\Debug\net10.0\CURSO C#.pdb
+C:\Users\uncle\Music\Proyecto borrador V2 c#\obj\Debug\net10.0\CURSO C#.genruntimeconfig.cache
+C:\Users\uncle\Music\Proyecto borrador V2 c#\obj\Debug\net10.0\ref\CURSO C#.dll
+c:\Users\uncle\Music\Tarea Parte 2 Listas\bin\Debug\net10.0\CURSO C#.exe
+C:\Users\uncle\Music\Tarea Parte 2 Listas\bin\Debug\net10.0\CURSO C#.deps.json
+C:\Users\uncle\Music\Tarea Parte 2 Listas\bin\Debug\net10.0\CURSO C#.runtimeconfig.json
+c:\Users\uncle\Music\Tarea Parte 2 Listas\bin\Debug\net10.0\CURSO C#.dll
+c:\Users\uncle\Music\Tarea Parte 2 Listas\bin\Debug\net10.0\CURSO C#.pdb
+c:\Users\uncle\Music\Tarea Parte 2 Listas\obj\Debug\net10.0\CURSO C#.GeneratedMSBuildEditorConfig.editorconfig
+c:\Users\uncle\Music\Tarea Parte 2 Listas\obj\Debug\net10.0\CURSO C#.AssemblyInfoInputs.cache
+c:\Users\uncle\Music\Tarea Parte 2 Listas\obj\Debug\net10.0\CURSO C#.AssemblyInfo.cs
+c:\Users\uncle\Music\Tarea Parte 2 Listas\obj\Debug\net10.0\CURSO C#.csproj.CoreCompileInputs.cache
+c:\Users\uncle\Music\Tarea Parte 2 Listas\obj\Debug\net10.0\CURSO C#.dll
+c:\Users\uncle\Music\Tarea Parte 2 Listas\obj\Debug\net10.0\refint\CURSO C#.dll
+c:\Users\uncle\Music\Tarea Parte 2 Listas\obj\Debug\net10.0\CURSO C#.pdb
+C:\Users\uncle\Music\Tarea Parte 2 Listas\obj\Debug\net10.0\CURSO C#.genruntimeconfig.cache
+C:\Users\uncle\Music\Tarea Parte 2 Listas\obj\Debug\net10.0\ref\CURSO C#.dll
+c:\Users\uncle\Music\Ciclos\obj\Debug\net10.0\CURSO C#.GeneratedMSBuildEditorConfig.editorconfig
+c:\Users\uncle\Music\Ciclos\obj\Debug\net10.0\CURSO C#.AssemblyInfoInputs.cache
+c:\Users\uncle\Music\Ciclos\obj\Debug\net10.0\CURSO C#.AssemblyInfo.cs
+c:\Users\uncle\Music\Ciclos\obj\Debug\net10.0\CURSO C#.csproj.CoreCompileInputs.cache
+c:\Users\uncle\Music\Ciclos\obj\Debug\net10.0\CURSO C#.dll
+c:\Users\uncle\Music\Ciclos\obj\Debug\net10.0\refint\CURSO C#.dll
+c:\Users\uncle\Music\Ciclos\obj\Debug\net10.0\CURSO C#.pdb
+c:\Users\uncle\Music\Ciclos\bin\Debug\net10.0\CURSO C#.exe
+C:\Users\uncle\Music\Ciclos\bin\Debug\net10.0\CURSO C#.deps.json
+C:\Users\uncle\Music\Ciclos\bin\Debug\net10.0\CURSO C#.runtimeconfig.json
+c:\Users\uncle\Music\Ciclos\bin\Debug\net10.0\CURSO C#.dll
+c:\Users\uncle\Music\Ciclos\bin\Debug\net10.0\CURSO C#.pdb
+C:\Users\uncle\Music\Ciclos\obj\Debug\net10.0\CURSO C#.genruntimeconfig.cache
+C:\Users\uncle\Music\Ciclos\obj\Debug\net10.0\ref\CURSO C#.dll
