@@ -82,3 +82,18 @@ c:\Users\uncle\Music\Ciclos\bin\Debug\net10.0\CURSO C#.dll
 c:\Users\uncle\Music\Ciclos\bin\Debug\net10.0\CURSO C#.pdb
 C:\Users\uncle\Music\Ciclos\obj\Debug\net10.0\CURSO C#.genruntimeconfig.cache
 C:\Users\uncle\Music\Ciclos\obj\Debug\net10.0\ref\CURSO C#.dll
+c:\Users\uncle\Music\Programación 1 en c#\bin\Debug\net10.0\CURSO C#.exe
+C:\Users\uncle\Music\Programación 1 en c#\bin\Debug\net10.0\CURSO C#.deps.json
+C:\Users\uncle\Music\Programación 1 en c#\bin\Debug\net10.0\CURSO C#.runtimeconfig.json
+c:\Users\uncle\Music\Programación 1 en c#\bin\Debug\net10.0\CURSO C#.dll
+c:\Users\uncle\Music\Programación 1 en c#\bin\Debug\net10.0\CURSO C#.pdb
+c:\Users\uncle\Music\Programación 1 en c#\obj\Debug\net10.0\CURSO C#.GeneratedMSBuildEditorConfig.editorconfig
+c:\Users\uncle\Music\Programación 1 en c#\obj\Debug\net10.0\CURSO C#.AssemblyInfoInputs.cache
+c:\Users\uncle\Music\Programación 1 en c#\obj\Debug\net10.0\CURSO C#.AssemblyInfo.cs
+c:\Users\uncle\Music\Programación 1 en c#\obj\Debug\net10.0\CURSO C#.csproj.CoreCompileInputs.cache
+c:\Users\uncle\Music\Programación 1 en c#\obj\Debug\net10.0\CURSO C#.sourcelink.json
+c:\Users\uncle\Music\Programación 1 en c#\obj\Debug\net10.0\CURSO C#.dll
+c:\Users\uncle\Music\Programación 1 en c#\obj\Debug\net10.0\refint\CURSO C#.dll
+c:\Users\uncle\Music\Programación 1 en c#\obj\Debug\net10.0\CURSO C#.pdb
+C:\Users\uncle\Music\Programación 1 en c#\obj\Debug\net10.0\CURSO C#.genruntimeconfig.cache
+C:\Users\uncle\Music\Programación 1 en c#\obj\Debug\net10.0\ref\CURSO C#.dll

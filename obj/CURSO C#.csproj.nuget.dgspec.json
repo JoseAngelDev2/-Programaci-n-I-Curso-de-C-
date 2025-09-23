@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\uncle\\Music\\Ciclos\\CURSO C#.csproj": {}
+    "C:\\Users\\uncle\\Music\\Programación 1 en c#\\CURSO C#.csproj": {}
   },
   "projects": {
-    "C:\\Users\\uncle\\Music\\Ciclos\\CURSO C#.csproj": {
+    "C:\\Users\\uncle\\Music\\Programación 1 en c#\\CURSO C#.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\uncle\\Music\\Ciclos\\CURSO C#.csproj",
+        "projectUniqueName": "C:\\Users\\uncle\\Music\\Programación 1 en c#\\CURSO C#.csproj",
         "projectName": "CURSO C#",
-        "projectPath": "C:\\Users\\uncle\\Music\\Ciclos\\CURSO C#.csproj",
+        "projectPath": "C:\\Users\\uncle\\Music\\Programación 1 en c#\\CURSO C#.csproj",
         "packagesPath": "C:\\Users\\uncle\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\uncle\\Music\\Ciclos\\obj\\",
+        "outputPath": "C:\\Users\\uncle\\Music\\Programación 1 en c#\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\uncle\\AppData\\Roaming\\NuGet\\NuGet.Config"

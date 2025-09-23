@@ -15,7 +15,7 @@ Dictionary<int, string> emails = new Dictionary<int, string>();
 Dictionary<int, int> ages = new Dictionary<int, int>();
 Dictionary<int, bool> bestFriends = new Dictionary<int, bool>();
 
-List<(int id, string Name, string Lastname, string Address, string Phone, string Email, int Age, int Temp, string IsBestFriend)> NewContactTemp = new List<(int id, string name, string lastname, string address, string phone, string email, int age, int temp, string isBestFriend)>();
+List<(int id, string Name, string Lastname, string Address, string Phone, string Email, int Age, int Temp, bool IsBestFriend)> NewContactTemp = new List<(int id, string name, string lastname, string address, string phone, string email, int age, int temp, bool isBestFriend)>();
 
 
 while (runing)
@@ -48,8 +48,6 @@ while (runing)
 
                 isBestFriend = (temp == 1) ? true : false;
 
-                string isBestFriendYesOrNot = (isBestFriend == true) ? "Si" : "NO";
-
                 var id = ids.Count + 1;
                 NewContactTemp.Add((
                     Id: id,
@@ -60,7 +58,7 @@ while (runing)
                     Email: email,
                     Age: age,
                     Temp: temp,
-                    IsBestFriend: isBestFriendYesOrNot
+                    IsBestFriend: isBestFriend
                 ));
 
                 AddContact(ids, names, lastnames, addresses, telephones, emails, ages, bestFriends);
@@ -101,8 +99,8 @@ while (runing)
 
 void AddContact(List<int> ids, Dictionary<int, string> names, Dictionary<int, string> lastnames, Dictionary<int, string> addresses, Dictionary<int, string> telephones, Dictionary<int, string> emails, Dictionary<int, int> ages, Dictionary<int, bool> bestFriends)
 {
-
-    Console.WriteLine("|| CONFIRMA SI LOS DATOS INTRODUCIDOS SON CORRECTOS (RESPONDE 1. SI O 2. NO)||\n");
+    Console.Clear();
+    Console.WriteLine("\n|| CONFIRMA SI LOS DATOS INTRODUCIDOS SON CORRECTOS (RESPONDE 1. SI O 2. NO)||\n");
 
     Console.WriteLine($"\nNombre          Apellido            Dirección           Telefono            Email           Edad            Es Mejor Amigo?");
     Console.WriteLine($"____________________________________________________________________________________________________________________________");
@@ -119,25 +117,35 @@ void AddContact(List<int> ids, Dictionary<int, string> names, Dictionary<int, st
 
     Console.Write("Ingrese el numero correspondiente: ");
     int optionform = int.Parse(Console.ReadLine()!);
-    Console.WriteLine("Entrara al if");
 
     var date_contant = NewContactTemp[0];
     int id = date_contant.id;
+    string name = date_contant.Name;
+    string lastname = date_contant.Lastname;
+    string address = date_contant.Address;
+    string email = date_contant.Email;
     string phone = date_contant.Phone;
+    int age = date_contant.Age;
+    bool isBestFriend = date_contant.IsBestFriend;
+
+
 
     if (optionform == 1 && !telephones.ContainsValue(date_contant.Phone))
     {
+        Console.WriteLine("Entro al if");
         telephones.Add(id, phone);
+        ids.Add(id);
+        names.Add(id, name);
+        lastnames.Add(id, lastname);
+        addresses.Add(id, address);
+        emails.Add(id, email);
+        ages.Add(id, age);
+        bestFriends.Add(id, isBestFriend);
+        Console.Clear();
         Console.WriteLine($"Se guardo en la contact list ✅ // telefonos: {telephones}");
+        NewContactTemp.Clear();
+        return;
 
-        //var id = ids.Count + 1;
-        //ids.Add(id);
-        //names.Add(id, name);
-        //lastnames.Add(id, lastname);
-        //addresses.Add(id, address);
-        //emails.Add(id, email);
-        //ages.Add(id, age);
-        //bestFriends.Add(id, isBestFriend);
     }
     else if (optionform == 2)
     {
@@ -149,6 +157,7 @@ void AddContact(List<int> ids, Dictionary<int, string> names, Dictionary<int, st
 
     else
     {
+        NewContactTemp.Clear();
         Console.WriteLine();
     }
 }
