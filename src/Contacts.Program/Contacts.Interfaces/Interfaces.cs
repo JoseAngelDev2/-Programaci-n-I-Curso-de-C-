@@ -27,5 +27,11 @@ namespace interfaces
         static bool FoundContact() => false;
     }
 
+    interface IFoundID
+    {
+        public static bool InFoundID(int ContactID) => false;
+    }
+
+
 }
 

@@ -1,10 +1,12 @@
 using Helpers.InputContact;
 using Contact.Domain.AllContact;
-
+using Domain.ModifyContact;
+using Domain.SearchContact;
+using Contact.Domain;
 bool runing = true;
 
 ContactInput Input = new ContactInput();
-AllContact all = new AllContact();
+Contact.MyContact C = new Contact.MyContact();
 
 while (runing)
 {
@@ -30,20 +32,20 @@ while (runing)
             { Input.formContact(); }
             break;
         case 2:
-            { all.GetAllContact(); }
+            { AllMyContacts.ShowAllContact(); }
 
             break;
         case 3:
-            {}
+            { SearchContact.SearchMyContact();} // Search
             break;
         case 4:
-            {}
+            { ModifyContact.ModifyMyContact(); }
             break;
         case 5: //delete
-            {}
+            { }
             break;
         case 6:
-            {}
+            { }
 
             break;
         default:

@@ -11,7 +11,7 @@ using interfaces;
 
 namespace AddContacts
 {
-    public class GetContact : IAddContact
+    public class AddMyContact : IAddContact
     {
         public static List<MyContact> listContact = new List<MyContact>();
 
@@ -21,7 +21,7 @@ namespace AddContacts
         public void AddContact(string name, string lastname, string address, string phone, string email, int age, bool isBestFriend)
         {
             Contact.MyContact C = new MyContact();
-            bool FoundPhone = InfaContact.FoundContact(phone);
+            bool FoundPhone = InContact.InFoundNumber(phone);
 
             if (FoundPhone)
             {

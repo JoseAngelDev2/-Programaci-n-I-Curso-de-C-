@@ -1,55 +1,56 @@
+using System.ComponentModel.Design;
 using System.Security.Cryptography.X509Certificates;
+using System.Text;
 using AddContacts;
+using Contact;
+using Contact.Domain.AllContact;
+using FieldInt;
+using FieldString;
+using Infrastructure;
+using ListOption;
+using validations.FoundIdOrPhone;
 namespace Domain.ModifyContact
 {
     class ModifyContact
     {
-        void GetModifyContact()
+        public static MyContact? GetModifyContact()
         {
+
             Console.Clear();
             Console.WriteLine("------ WELCOME TO MODIFY CONTACT ------\n");
             Console.WriteLine($"                                          ✍️   List Contact Modify   ✍️                                                                      ");
             Console.ForegroundColor = ConsoleColor.Red;
             Console.WriteLine("________________________________________________________________________________");
-            // See Contacts;
+            AllMyContacts.ShowAllContact();
             Console.WriteLine("________________________________________________________________________________");
             Console.ResetColor();
             Console.WriteLine("\n                   👀 Enter the telephone to select the contact. 👀                   \n");
             Console.Write("\nWrite the Contact number or id you would like to modify: ");
             string optionNumber = Console.ReadLine()!;
-            bool FoundPhone = GetContact.listContact.Any(x => x.Phone != optionNumber);
-            if (FoundPhone)
+
+            var data = VfoundIdOrPhone.FoundIdOrPhone(optionNumber);
+
+            if (data is null)
             {
-                Console.WriteLine($"The list not registered Contacts ❎");
+                return null;
             }
-            else if (!FoundPhone)
+            else if (data is not null)
             {
-                Console.ForegroundColor = ConsoleColor.Yellow;
-                Console.WriteLine("that you want to modify of this contact");
-                Console.ResetColor();
-                ConfirmModifyContact(optionNumber, 0);
+                data = VfoundIdOrPhone.FoundIdOrPhone(optionNumber);
             }
-            else if (int.TryParse(optionNumber, out int id))
-            {
-                bool FoundID = false;
-                if (FoundID)
-                {
-                    ConfirmModifyContact(string.Empty, id);
-                }
-            }
+
+            return data;
         }
 
-
-
-        void ConfirmModifyContact(string optionNumber, int id)
+        public static void ModifyMyContact()
         {
-            ShowContactFound(optionNumber, id);
-            int IDNumber = SearchIdOrPhoneNumber(optionNumber, id, telephonesInverted);
-            bool active = telephones.ContainsKey(IDNumber);
+            var C = GetModifyContact();
+            if (C is null) { Console.WriteLine("The contact no exits"); return; }
             int option = 0;
+            bool active = true;
             while (active)
             {
-
+                InContact.ShowContact(C);
                 Console.ForegroundColor = ConsoleColor.Yellow;
                 Console.WriteLine("\n1. Modify Name and Lastname\n2. Modify Address and IsBestfriend\n3. Modify Email and Age\n4. exit\n");
                 Console.ResetColor();
@@ -72,8 +73,8 @@ namespace Domain.ModifyContact
                         {
                             try
                             {
-                                names[IDNumber] = VerifyFieldString("modify name", "Angel");
-                                lastnames[IDNumber] = VerifyFieldString("modify lastname", "Polanco");
+                                C.Name = CheckString.VerifyFieldString("modify name", "Angel");
+                                C.Lasname = CheckString.VerifyFieldString("modify lastname", "Polanco");
                             }
                             catch (Exception err)
                             {
@@ -82,27 +83,27 @@ namespace Domain.ModifyContact
 
                             Console.Clear();
                             Console.ForegroundColor = ConsoleColor.Green;
-                            Console.WriteLine($"\nChanges:\n\nName: {names[IDNumber]}\nLastname: {lastnames[IDNumber]}\n");
+                            Console.WriteLine($"\nChanges:\n\nName: {C.Name}\nLastname: {C.Lasname}\n");
                             Console.ResetColor();
                             Console.ReadKey();
-                            ShowContactFound(optionNumber, id);
+
 
                         }
                         break;
                     case 2:
                         {
-                            addresses[IDNumber] = VerifyFieldString("modify address", "14 main street SC 19000");
+                            C.Address = CheckString.VerifyFieldString("modify address", "14 main street SC 19000");
 
-                            bool optionBool = MultiOptionList.Contains(VerifyFieldString("new option of contact Isbesfriend: ", "yes").ToLower());
-                            string ModifyisBesfriendStr = ShowMessageBesfriend(optionBool);
+                            bool optionBool = ConfirmOption.MultiOptionList.Contains(CheckString.VerifyFieldString("new option of contact Isbesfriend: ", "yes").ToLower());
+                            string ModifyisBesfriendStr = InContact.ShowMessageBesfriend(optionBool);
 
                             Console.Clear();
                             Console.ForegroundColor = ConsoleColor.Green;
-                            Console.WriteLine($"\nChanges:\n\nAddress: {addresses[IDNumber]}\nIs BestFrIend: {ModifyisBesfriendStr}\n");
+                            Console.WriteLine($"\nChanges:\n\nAddress: {C.Address}\nIs BestFrIend: {ModifyisBesfriendStr}\n");
 
-                            if (bestFriends[IDNumber] != optionBool)
+                            if (C.IsbesFriend != optionBool)
                             {
-                                bestFriends[IDNumber] = optionBool;
+                                C.IsbesFriend = optionBool;
                             }
                             else
                             {
@@ -111,7 +112,7 @@ namespace Domain.ModifyContact
 
                             Console.ResetColor();
                             Console.ReadKey();
-                            ShowContactFound(optionNumber, id);
+                            ;
 
                         }
                         break;
@@ -119,8 +120,8 @@ namespace Domain.ModifyContact
                         {
                             try
                             {
-                                emails[IDNumber] = VerifyFieldString("new email", "angel@dominio.com");
-                                ages[IDNumber] = verifyAge("modify age");
+                                C.Email = CheckString.VerifyFieldString("new email", "angel@dominio.com");
+                                C.Age = CheckedAge.verifyAge("modify age");
                             }
 
                             catch (Exception e)
@@ -131,11 +132,10 @@ namespace Domain.ModifyContact
 
                             Console.Clear();
                             Console.ForegroundColor = ConsoleColor.Green;
-                            Console.WriteLine($"\nChanges:\n\nEmail: {emails[IDNumber]}\nAge: {ages[IDNumber]}\n");
+                            Console.WriteLine($"\nChanges:\n\nEmail: {C.Email}\nAge: {C.Age}\n");
 
                             Console.ResetColor();
                             Console.ReadKey();
-                            ShowContactFound(optionNumber, id);
                         }
                         break;
                     case 4:
@@ -149,6 +149,7 @@ namespace Domain.ModifyContact
                             Console.WriteLine("Error: Not can modify this contact select the option correct. Choose [1, 2, 3, 4]");
                         }
                         break;
+
                 }
             }
         }
