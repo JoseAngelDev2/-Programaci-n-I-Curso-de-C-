@@ -1,5 +1,6 @@
 using AddContacts;
 using FieldString;
+using Infrastructure;
 
 
 
@@ -10,9 +11,9 @@ namespace Contact.Domain.AllContact
 
         public void GetAllContact()
         {
-            foreach (MyContact data in AddContacts.GetContact.listContact)
+            foreach (MyContact data in AddMyContact.listContact)
             {
-                string IsBestFriendStr = CheckString.ShowMessageBesfriend(data.IsbesFriend);
+                string IsBestFriendStr = InContact.ShowMessageBesfriend(data.IsbesFriend);
                 Console.WriteLine($"___________________________________________________________________________________________________________________________________\n");
                 Console.ForegroundColor = ConsoleColor.Yellow;
                 Console.WriteLine($"{data.id}. Name: {data.Name} | lastname: {data.Lasname} | address: {data.Address} | telephone: {data.Phone} | email: {data.Email} | age: {data.Age} | Is Best Friend: {IsBestFriendStr}\n");
@@ -20,7 +21,7 @@ namespace Contact.Domain.AllContact
             }
             Console.WriteLine($"___________________________________________________________________________________________________________________________________\n");
             Console.ForegroundColor = ConsoleColor.Blue;
-            Console.WriteLine($"total contacts: {GetContact.listContact.Count}");
+            Console.WriteLine($"total contacts: {AddMyContact.listContact.Count}");
             Console.ResetColor();
         }
     }
